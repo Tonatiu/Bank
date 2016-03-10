@@ -26,7 +26,6 @@ public class ClientManager extends DBManager{
 			);
 			
 			Client_passwd = this.result.getString("passwd");
-			
 			if(Client_passwd.equals(passwd))
 				return true;
 		}

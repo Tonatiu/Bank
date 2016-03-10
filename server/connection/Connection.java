@@ -17,6 +17,7 @@ public class Connection extends Thread{
 	}
 	
 	public void run(){
+		System.out.println("Server ready");
 		while(active){
 			try {
 				this.cliente = this.server.accept();

@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class Conector {
 	private static Connection connection;
-	private String server = "jdbc:mysql://localhost/BoxContest";
+	private String server = "jdbc:mysql://localhost/banco";
 	private String user = "root";
 	private String passwd = "123456";
 	private String driver = "com.mysql.jdbc.Driver";
